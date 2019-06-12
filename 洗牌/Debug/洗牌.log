@@ -1,0 +1,6 @@
+﻿  源.cpp
+D:\nowcoder\洗牌\源.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
+D:\nowcoder\洗牌\源.cpp(135): warning C4018: “<”: 有符号/无符号不匹配
+D:\nowcoder\洗牌\源.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
+D:\nowcoder\洗牌\源.cpp(165): warning C4018: “<”: 有符号/无符号不匹配
+  洗牌.vcxproj -> D:\nowcoder\洗牌\Debug\洗牌.exe
