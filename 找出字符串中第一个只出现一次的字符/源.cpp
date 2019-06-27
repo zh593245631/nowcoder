@@ -1,6 +1,6 @@
-#include<map>
-#include<iostream>
 #include<string>
+#include<iostream>
+
 using namespace std;
 
 int main()
@@ -8,23 +8,19 @@ int main()
 	string str;
 	while (getline(cin, str))
 	{
-		map<char, int> m;
-		for (int i = 0; i < str.size(); ++i)
+		int hash[256] = { 0 };
+		for (const auto& e : str)
+			++hash[e];
+		bool flag = true;
+		for (const auto& e : str)
 		{
-			if (!m.insert(make_pair(str[i], i)).second){
-				m.erase(str[i]);
+			if (hash[e] == 1) {
+				cout << e << endl;
+				flag = false;
+				break;
 			}
 		}
-		if (m.empty())
-			cout << -1 << endl;
-			int min = str.size();
-			for (const auto& e : m)
-			{
-				if (min > e.second) {
-					min = e.second;
-				}
-			}
-		cout << str[min] << endl;
+		if (flag)cout << -1 << endl;
 	}
 	return 0;
 }
