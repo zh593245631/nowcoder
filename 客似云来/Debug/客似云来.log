@@ -1,0 +1,7 @@
+﻿  源.cpp
+D:\nowcoder\客似云来\源.cpp(32,20): warning C4244:  “+=”: 从“_Ty”转换到“int”，可能丢失数据
+D:\nowcoder\客似云来\源.cpp(32,20): warning C4244:         with
+D:\nowcoder\客似云来\源.cpp(32,20): warning C4244:         [
+D:\nowcoder\客似云来\源.cpp(32,20): warning C4244:             _Ty=__int64
+D:\nowcoder\客似云来\源.cpp(32,20): warning C4244:         ]
+  客似云来.vcxproj -> D:\nowcoder\客似云来\Debug\客似云来.exe
