@@ -1,24 +1,24 @@
-// write your code here cpp
 #include<iostream>
 #include<vector>
 using namespace std;
+
 vector<int> a = { 1,1 };
-void a_init()
+void init()
 {
-	int i;
-	for (i = 2; i < 10005; ++i)
+	for (int i = 2; i <= 10000; ++i)
 		a.push_back((a[i - 1] + a[i - 2]) % 10000);
 }
 int main()
 {
-	int n,m;
-	a_init();
-	while (std::cin >> n)
+	init();
+	int n;
+	while (cin >> n)
 	{
 		while (n--)
 		{
-			std::cin >> m;
-			printf("%04d", a[m]);	
+			int x;
+			cin >> x;
+			printf("%04d", a[x]);
 		}
 		printf("\n");
 	}
