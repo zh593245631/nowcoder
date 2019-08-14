@@ -39,7 +39,7 @@ public:
 int main()
 {
 	Solution s;
-	vector<int> arr = { 2,3,5 };
+	vector<int> arr = { 3,2,5 };
 	int result = s.getFirstUnFormedNum(arr, arr.size());
 	cout << result << endl;
 	return 0;
