@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "包含min函数的栈", "包含min函数的栈.vcxproj", "{FF530AED-86FA-4F14-8E30-7CF076D6077E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF530AED-86FA-4F14-8E30-7CF076D6077E}.Debug|x64.ActiveCfg = Debug|x64
+		{FF530AED-86FA-4F14-8E30-7CF076D6077E}.Debug|x64.Build.0 = Debug|x64
+		{FF530AED-86FA-4F14-8E30-7CF076D6077E}.Debug|x86.ActiveCfg = Debug|Win32
+		{FF530AED-86FA-4F14-8E30-7CF076D6077E}.Debug|x86.Build.0 = Debug|Win32
+		{FF530AED-86FA-4F14-8E30-7CF076D6077E}.Release|x64.ActiveCfg = Release|x64
+		{FF530AED-86FA-4F14-8E30-7CF076D6077E}.Release|x64.Build.0 = Release|x64
+		{FF530AED-86FA-4F14-8E30-7CF076D6077E}.Release|x86.ActiveCfg = Release|Win32
+		{FF530AED-86FA-4F14-8E30-7CF076D6077E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7B0622E-87C8-4E83-AB70-541EF1A5400B}
+	EndGlobalSection
+EndGlobal
